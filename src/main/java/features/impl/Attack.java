@@ -1,7 +1,9 @@
 package features.impl;
 
 import features.Protective;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Attack implements Protective {
     @Override
     public String protect() {

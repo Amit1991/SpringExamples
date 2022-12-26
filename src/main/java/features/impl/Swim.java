@@ -1,7 +1,9 @@
 package features.impl;
 
 import features.Swimable;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Swim implements Swimable {
 
     public void swim() {
